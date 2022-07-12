@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- owl slider css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery link  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- owl slider js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="happy-section">
+        <div class="happy">
+            <h1>See what these happy users have to say 😍</h1>
+        </div>
+        <div class="owl-carousel happy-users">
+
+            <div class="user-slide img1">
+                <div class="content">
+                    <h3>Margot Alliod</h3>
+                    <h4>B2B Marketing manager @Esker</h4>
+                    <p>We have a partner ecosystem that revolves around our solutions. We wanted to animate them
+                        regularly, present them with new features, and share best practices. We brought them together in
+                        a Spot, which was very much appreciated by our teams but also by our partners
+                    </p>
+                </div>
+
+            </div>
+            <div class="user-slide img2">
+                <div class="content">
+                    <h3>Lucie Cottereau</h3>
+                    <h4>Marketing officer @Groupe Up</h4>
+                    <p>In addition to offering software that understood our needs, Melting Spot is also an expertise and
+                        a project group that takes great care!
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="user-slide img3">
+                <div class="content">
+                    <h3>William Prot</h3>
+                    <h4>Digital & Communication Manager @Association Second Souffle</h4>
+                    <p>An easy-to-use product that meets most of our needs at an appropriate price. Caring customer
+                        service.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="user-slide img4">
+                <div class="content">
+                    <h3>Killian Tallin</h3>
+                    <h4>Creator @Inspiration Créative</h4>
+                    <p>I really enjoyed using the platform to engage my community and organize my business events.
+                        MeltingSpot and the whole team do an amazing job and I recommend them 100%.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="user-slide img5">
+                <div class="content">
+                    <h3>Bérengère Malin</h3>
+                    <h4>Business Development Executive Director @HEC</h4>
+                    <p>A very profitable investment. The concept itself as a whole was very much appreciated.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="user-slide img6">
+                <div class="content">
+                    <h3>Anne-Gaëlle Fauchon</h3>
+                    <h4>Marketing Manager @Younited</h4>
+                    <p>We had two priorities: talking to our prospects in a different way and providing them with
+                        relevant content. MeltingSpot allowed us to create and engage our community of prospects.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".owl-carousel").owlCarousel({
+            center: false,
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            responsive: {
+                768: {
+                    center: true,
+                    margin: 40,
+                    items: 3,
+                    nav: false,
+                    dots: true
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
